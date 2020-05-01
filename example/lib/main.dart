@@ -152,6 +152,10 @@ class _MyHomePageState extends State<MyHomePage> {
       markedDatesMap: _markedDateMap,
       height: 200.0,
       selectedDateTime: _currentDate2,
+      selectedDayGradient: LinearGradient(
+        colors: <Color>[Color(0xFF30A9B2).withOpacity(0.75), Color(0xFF0E4487).withOpacity(0.75)],
+        begin: Alignment.bottomLeft,
+        end: Alignment.topRight,),
       showIconBehindDayText: true,
 //          daysHaveCircularBorder: false, /// null for not rendering any border, true for circular border, false for rectangular border
       customGridViewPhysics: NeverScrollableScrollPhysics(),
