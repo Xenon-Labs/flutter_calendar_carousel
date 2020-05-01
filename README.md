@@ -49,7 +49,7 @@ For help getting started with Flutter, view our online
 | selectedDayTextStyle    | `TextStyle`     | `fontSize: 14.0, color: Colors.white` |
 | selectedDayBorderColor  | `Color`         | Colors.green |
 | selectedDayButtonColor  | `Color`         | Colors.green |
-| selectedDayGradient     | `LinearGradient`| Solid Green  |
+| selectedDayGradient     | `LinearGradient`| ```LinearGradient(colors: <Color>[Colors.green, Colors.green], begin: Alignment.centerRight, end: Alignment.centerLeft)```  |
 | daysHaveCircularBorder  | `bool`          | |
 | onDayPressed            | `Func`          | |
 | weekdayTextStyle        | `TextStyle`     | `fontSize: 14.0, color: Colors.deepOrange` |
